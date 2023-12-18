@@ -1,0 +1,52 @@
+h2{
+
+  text-align: center;
+
+}
+span{
+  cursor: pointer;
+}
+
+.home-container{
+  display: flex;
+  padding: 10px 20px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  background-color: #9ED2BE;
+
+  width: 100%;
+  padding: 15px 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.data-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+}
+.signuplink{
+  color: black;
+}
+a {
+  text-decoration:none;
+  color: white;
+  padding: 10px 15px;
+  margin: 0px 10px;
+  font-weight: bold;
+  border-radius:10px;
+}
+
+.menu-data {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(0, 12, 34);
+}
